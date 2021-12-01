@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "PoochplaySDK"
+  spec.name         = "PoochplayBle-SDK"
   spec.version      = "1.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
@@ -16,6 +16,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/mohammedHussainSTV/PoochplaySDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "PoochplaySDK/**/*.{h,m,swift}"
+  spec.source_files  = "PoochplayBle-SDK/**/*.{h,m,swift}"
 
 end
