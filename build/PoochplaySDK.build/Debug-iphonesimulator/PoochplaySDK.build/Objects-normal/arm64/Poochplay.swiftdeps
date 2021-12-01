@@ -1,0 +1,432 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PoochplayDelegate"
+- "Poochplay"
+provides-nominal:
+- "12PoochplaySDK0A8DelegateP"
+- "12PoochplaySDK0A0C"
+provides-member:
+- ["12PoochplaySDK0A8DelegateP", ""]
+- ["12PoochplaySDK0A0C", ""]
+provides-dynamic-lookup:
+- "allBlue"
+- "allBlueData"
+- "centralManagerState"
+- "connect"
+- "oldBandApi"
+- "poochplayDelegate"
+depends-top-level:
+- "=="
+- "AllBlueDelegate"
+- "AllBluetooth"
+- "AssignmentPrecedence"
+- "Bool"
+- "CBCentralManager"
+- "CastingPrecedence"
+- "FBKApiOldBand"
+- "NSObject"
+- "Poochplay"
+- "PoochplayDelegate"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "debugPrint"
+depends-member:
+- ["So15AllBlueDelegateP", "AllBlueData"]
+- ["So15AllBlueDelegateP", "AllBluetooth"]
+- ["So15AllBlueDelegateP", "FBKApiOldBand"]
+- ["So15AllBlueDelegateP", ""]
+- ["So15AllBlueDelegateP", "allBlue"]
+- ["So15AllBlueDelegateP", "allBlueData"]
+- ["So15AllBlueDelegateP", "centralManagerState"]
+- ["So15AllBlueDelegateP", "connect"]
+- !private ["So15AllBlueDelegateP", "debugPrint"]
+- ["So15AllBlueDelegateP", "deinit"]
+- ["So15AllBlueDelegateP", "init"]
+- ["So15AllBlueDelegateP", "oldBandApi"]
+- ["So15AllBlueDelegateP", "poochplayDelegate"]
+- !private ["So12AllBluetoothC", "delegate"]
+- ["So12AllBluetoothC", "init"]
+- !private ["So12AllBluetoothC", "startSearch"]
+- !private ["Sa", "filter"]
+- !private ["SK", ""]
+- !private ["SK", "filter"]
+- !private ["So16CBCentralManagerC", "state"]
+- !private ["So24CBCentralManagerDelegateP", "delegate"]
+- ["So24CBCentralManagerDelegateP", "init"]
+- !private ["So24CBCentralManagerDelegateP", "startSearch"]
+- ["So9CBManagerC", ""]
+- !private ["So9CBManagerC", "state"]
+- ["So14CBManagerStateV", "poweredOff"]
+- ["So14CBManagerStateV", "poweredOn"]
+- ["So14CBManagerStateV", "resetting"]
+- ["So14CBManagerStateV", "unauthorized"]
+- ["So14CBManagerStateV", "unsupported"]
+- !private ["So20CBPeripheralDelegateP", "delegate"]
+- ["So20CBPeripheralDelegateP", "init"]
+- !private ["So20CBPeripheralDelegateP", "startSearch"]
+- ["s7CVarArgP", "AllBlueData"]
+- ["s7CVarArgP", "AllBluetooth"]
+- ["s7CVarArgP", "FBKApiOldBand"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "allBlue"]
+- ["s7CVarArgP", "allBlueData"]
+- !private ["s7CVarArgP", "allDevices"]
+- ["s7CVarArgP", "centralManagerState"]
+- !private ["s7CVarArgP", "connect"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didConnectedWithPoochplay"]
+- !private ["s7CVarArgP", "filter"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "poochplayDelegate"]
+- !private ["s7CVarArgP", "startSearch"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", ""]
+- !private ["Sl", "filter"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "AllBlueData"]
+- ["s28CustomDebugStringConvertibleP", "AllBluetooth"]
+- ["s28CustomDebugStringConvertibleP", "FBKApiOldBand"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "allBlue"]
+- ["s28CustomDebugStringConvertibleP", "allBlueData"]
+- !private ["s28CustomDebugStringConvertibleP", "allDevices"]
+- ["s28CustomDebugStringConvertibleP", "centralManagerState"]
+- !private ["s28CustomDebugStringConvertibleP", "connect"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didConnectedWithPoochplay"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "poochplayDelegate"]
+- !private ["s28CustomDebugStringConvertibleP", "startSearch"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "state"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "AllBlueData"]
+- ["s23CustomStringConvertibleP", "AllBluetooth"]
+- ["s23CustomStringConvertibleP", "FBKApiOldBand"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "allBlue"]
+- ["s23CustomStringConvertibleP", "allBlueData"]
+- !private ["s23CustomStringConvertibleP", "allDevices"]
+- ["s23CustomStringConvertibleP", "centralManagerState"]
+- !private ["s23CustomStringConvertibleP", "connect"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didConnectedWithPoochplay"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "poochplayDelegate"]
+- !private ["s23CustomStringConvertibleP", "startSearch"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["Se", "filter"]
+- !private ["Se", "state"]
+- !private ["Se", "subscript"]
+- !private ["SD", "subscript"]
+- !private ["SE", "filter"]
+- !private ["SE", "state"]
+- !private ["SE", "subscript"]
+- ["SQ", "AllBlueData"]
+- ["SQ", "AllBluetooth"]
+- ["SQ", "FBKApiOldBand"]
+- ["SQ", ""]
+- !private ["SQ", "allBlue"]
+- ["SQ", "allBlueData"]
+- !private ["SQ", "allDevices"]
+- ["SQ", "centralManagerState"]
+- !private ["SQ", "connect"]
+- !private ["SQ", "debugPrint"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "didConnectedWithPoochplay"]
+- !private ["SQ", "filter"]
+- ["SQ", "init"]
+- !private ["SQ", "poochplayDelegate"]
+- ["SQ", "poweredOff"]
+- ["SQ", "poweredOn"]
+- ["SQ", "resetting"]
+- !private ["SQ", "startSearch"]
+- !private ["SQ", "state"]
+- !private ["SQ", "subscript"]
+- ["SQ", "unauthorized"]
+- ["SQ", "unsupported"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "state"]
+- ["So16FBKApiBsaeMethodC", ""]
+- ["So16FBKApiBsaeMethodC", "init"]
+- ["So13FBKApiOldBandC", "init"]
+- ["So28FBKManagerControllerDelegateP", "init"]
+- ["SH", "AllBlueData"]
+- ["SH", "AllBluetooth"]
+- ["SH", "FBKApiOldBand"]
+- ["SH", ""]
+- !private ["SH", "allBlue"]
+- ["SH", "allBlueData"]
+- !private ["SH", "allDevices"]
+- ["SH", "centralManagerState"]
+- !private ["SH", "connect"]
+- !private ["SH", "debugPrint"]
+- !private ["SH", "delegate"]
+- !private ["SH", "didConnectedWithPoochplay"]
+- !private ["SH", "filter"]
+- ["SH", "init"]
+- !private ["SH", "poochplayDelegate"]
+- ["SH", "poweredOff"]
+- ["SH", "poweredOn"]
+- ["SH", "resetting"]
+- !private ["SH", "startSearch"]
+- !private ["SH", "state"]
+- !private ["SH", "subscript"]
+- ["SH", "unauthorized"]
+- ["SH", "unsupported"]
+- !private ["SM", ""]
+- !private ["SM", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- ["So8NSCodingP", ""]
+- ["So8NSObjectC", "AllBlueData"]
+- ["So8NSObjectC", "AllBluetooth"]
+- !private ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CBCentralManager"]
+- ["So8NSObjectC", "FBKApiOldBand"]
+- ["So8NSObjectC", "PoochplayDelegate"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "allBlue"]
+- ["So8NSObjectC", "allBlueData"]
+- !private ["So8NSObjectC", "allDevices"]
+- ["So8NSObjectC", "centralManagerState"]
+- ["So8NSObjectC", "connect"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "didConnectedWithPoochplay"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "oldBandApi"]
+- ["So8NSObjectC", "poochplayDelegate"]
+- !private ["So8NSObjectC", "startSearch"]
+- !private ["So8NSObjectC", "startSearchBluetooth"]
+- !private ["So8NSObjectC", "state"]
+- ["So8NSObjectP", "AllBlueData"]
+- ["So8NSObjectP", "AllBluetooth"]
+- !private ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "CBCentralManager"]
+- ["So8NSObjectP", "FBKApiOldBand"]
+- ["So8NSObjectP", "PoochplayDelegate"]
+- ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "allBlue"]
+- ["So8NSObjectP", "allBlueData"]
+- !private ["So8NSObjectP", "allDevices"]
+- ["So8NSObjectP", "centralManagerState"]
+- ["So8NSObjectP", "connect"]
+- !private ["So8NSObjectP", "debugPrint"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "didConnectedWithPoochplay"]
+- ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "oldBandApi"]
+- ["So8NSObjectP", "poochplayDelegate"]
+- !private ["So8NSObjectP", "startSearch"]
+- !private ["So8NSObjectP", "startSearchBluetooth"]
+- !private ["So8NSObjectP", "state"]
+- !private ["Sq", "state"]
+- ["12PoochplaySDK0A0C", "AllBlueData"]
+- ["12PoochplaySDK0A0C", "AllBluetooth"]
+- !private ["12PoochplaySDK0A0C", "Bool"]
+- ["12PoochplaySDK0A0C", "CBCentralManager"]
+- ["12PoochplaySDK0A0C", "FBKApiOldBand"]
+- ["12PoochplaySDK0A0C", "PoochplayDelegate"]
+- ["12PoochplaySDK0A0C", "String"]
+- ["12PoochplaySDK0A0C", ""]
+- ["12PoochplaySDK0A0C", "allBlue"]
+- ["12PoochplaySDK0A0C", "allBlueData"]
+- ["12PoochplaySDK0A0C", "centralManagerState"]
+- ["12PoochplaySDK0A0C", "connect"]
+- !private ["12PoochplaySDK0A0C", "debugPrint"]
+- ["12PoochplaySDK0A0C", "deinit"]
+- ["12PoochplaySDK0A0C", "init"]
+- ["12PoochplaySDK0A0C", "oldBandApi"]
+- ["12PoochplaySDK0A0C", "poochplayDelegate"]
+- ["12PoochplaySDK0A8DelegateP", "String"]
+- ["12PoochplaySDK0A8DelegateP", "allDevices"]
+- ["12PoochplaySDK0A8DelegateP", "didConnectedWithPoochplay"]
+- !private ["Sk", ""]
+- !private ["Sk", "filter"]
+- !private ["Sm", ""]
+- !private ["Sm", "filter"]
+- ["SY", "poweredOff"]
+- ["SY", "poweredOn"]
+- ["SY", "resetting"]
+- ["SY", "unauthorized"]
+- ["SY", "unsupported"]
+- !private ["ST", ""]
+- !private ["ST", "filter"]
+- !private ["ST", "subscript"]
+- !private ["So18UIFocusEnvironmentP", ""]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AllBlueData"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "AllBluetooth"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FBKApiOldBand"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allBlue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "allBlueData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "allDevices"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "centralManagerState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connect"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didConnectedWithPoochplay"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "poochplayDelegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startSearch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AllBlueData"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AllBluetooth"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FBKApiOldBand"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "allBlue"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "allBlueData"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "allDevices"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "centralManagerState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connect"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "debugPrint"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "didConnectedWithPoochplay"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "poochplayDelegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "startSearch"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "state"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "state"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- "So15AllBlueDelegateP"
+- "So12AllBluetoothC"
+- !private "Sa"
+- !private "SK"
+- !private "So16CBCentralManagerC"
+- "So24CBCentralManagerDelegateP"
+- "So9CBManagerC"
+- "So14CBManagerStateV"
+- "So20CBPeripheralDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "So16FBKApiBsaeMethodC"
+- "So13FBKApiOldBandC"
+- "So28FBKManagerControllerDelegateP"
+- "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sq"
+- "12PoochplaySDK0A0C"
+- "12PoochplaySDK0A8DelegateP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "So18UIFocusEnvironmentP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/arm64-apple-ios-simulator.swiftmodule"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/PoochplaySDK.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Common/FBKProNTrackerBigData.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldBand/FBKProOldBandCmd.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldScale/FBKProOldScaleCmd.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Common/FBKProNTrackerCmd.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Rosary/FBKProRosaryCmd.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/API/OldBand/FBKApiOldBand.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldBand/FBKProtocolOldBand.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/ArmBand/FBKProtocolArmBand.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Devices/NewBand/FBKDeviceNewBand.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/API/Base/FBKApiBsaeMethod.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Cadence/FBKProtocolCadence.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/NewScale/FBKProtocolNScale.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldScale/FBKProtocolOldScale.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Base/FBKProtocolBase.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/HubConfig/FBKProtocolHubConfig.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Skipping/FBKProtocolSkipping.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Boxing/FBKProtocolBoxing.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/AllBluetooth/AllBluetooth.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldBand/FBKProOldBandAnalytical.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/OldScale/FBKProOldScaleAnalytical.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Common/FBKProNTrackerAnalytical.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Rosary/FBKProRosaryAnalytical.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/KettleBell/FBKProtocolKettleBell.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Devices/Base/FBKDeviceBaseInfo.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Devices/Model/FBKDeviceUserInfo.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/NewBand/FBKProtocolNTracker.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Ble/FBKBleController.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Manager/FBKManagerController.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/BikeComputer/FBKProtocolBikeComputer.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/CommonClass/CommonClass.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Tools/FBKEnumList.h"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/FitBleKit/Protocol/Rosary/FBKProtocolRosary.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/build/PoochplaySDK.build/Debug-iphonesimulator/PoochplaySDK.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/Headers/CoreBluetooth.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "26be0f9b37fb603696c093a0bfc945f2"

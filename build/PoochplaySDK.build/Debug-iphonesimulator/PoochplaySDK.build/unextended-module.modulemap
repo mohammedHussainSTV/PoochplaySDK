@@ -1,0 +1,10 @@
+framework module PoochplaySDK {
+  umbrella header "PoochplaySDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PoochplaySDK.__Swift {
+    exclude header "PoochplaySDK-Swift.h"
+}

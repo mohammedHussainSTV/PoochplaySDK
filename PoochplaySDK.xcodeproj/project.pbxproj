@@ -1,0 +1,1276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04690CAF273E528400B3FF47 /* Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04690CB0273E528400B3FF47 /* Build configuration list for PBXAggregateTarget "Aggregate" */;
+			buildPhases = (
+				04690CB6273E529C00B3FF47 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Aggregate;
+			productName = Aggregate;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		041FE11E2743980C0084ACDB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041FE11D2743980C0084ACDB /* CoreBluetooth.framework */; platformFilter = ios; };
+		04690C95273E51F000B3FF47 /* PoochplaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04690C8B273E51EF00B3FF47 /* PoochplaySDK.framework */; };
+		04690C9C273E51F000B3FF47 /* PoochplaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690C8E273E51EF00B3FF47 /* PoochplaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690CA8273E51FF00B3FF47 /* Poochplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04690CA7273E51FF00B3FF47 /* Poochplay.swift */; };
+		04690D67273E608300B3FF47 /* FBKDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CDD273E608200B3FF47 /* FBKDateFormat.m */; };
+		04690D68273E608300B3FF47 /* FBKSpliceBle.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CDE273E608200B3FF47 /* FBKSpliceBle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D69273E608300B3FF47 /* FBKDateFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CDF273E608200B3FF47 /* FBKDateFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D6A273E608300B3FF47 /* FBKEnumList.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CE0273E608200B3FF47 /* FBKEnumList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D6B273E608300B3FF47 /* FBKSpliceBle.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CE1273E608200B3FF47 /* FBKSpliceBle.m */; };
+		04690D6C273E608300B3FF47 /* FBKBleScan.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CE3273E608200B3FF47 /* FBKBleScan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D6D273E608300B3FF47 /* FBKBleController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CE4273E608200B3FF47 /* FBKBleController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D6E273E608300B3FF47 /* FBKBleScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CE5273E608200B3FF47 /* FBKBleScan.m */; };
+		04690D6F273E608300B3FF47 /* FBKBleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CE6273E608200B3FF47 /* FBKBleController.m */; };
+		04690D70273E608300B3FF47 /* FBKArmBandCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CE9273E608200B3FF47 /* FBKArmBandCmd.m */; };
+		04690D71273E608300B3FF47 /* FBKProtocolArmBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CEA273E608300B3FF47 /* FBKProtocolArmBand.m */; };
+		04690D72273E608300B3FF47 /* FBKArmBandCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CEB273E608300B3FF47 /* FBKArmBandCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D73273E608300B3FF47 /* FBKProtocolArmBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CEC273E608300B3FF47 /* FBKProtocolArmBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D74273E608300B3FF47 /* FBKProtocolSkipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CEE273E608300B3FF47 /* FBKProtocolSkipping.m */; };
+		04690D75273E608300B3FF47 /* FBKProtocolSkipping.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CEF273E608300B3FF47 /* FBKProtocolSkipping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D76273E608300B3FF47 /* FBKProtocolOldBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CF1273E608300B3FF47 /* FBKProtocolOldBand.m */; };
+		04690D77273E608300B3FF47 /* FBKProOldBandAnalytical.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CF2273E608300B3FF47 /* FBKProOldBandAnalytical.m */; };
+		04690D78273E608300B3FF47 /* FBKProOldBandCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CF3273E608300B3FF47 /* FBKProOldBandCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D79273E608300B3FF47 /* FBKProtocolOldBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CF4273E608300B3FF47 /* FBKProtocolOldBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D7A273E608300B3FF47 /* FBKProOldBandCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CF5273E608300B3FF47 /* FBKProOldBandCmd.m */; };
+		04690D7B273E608300B3FF47 /* FBKProOldBandAnalytical.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CF6273E608300B3FF47 /* FBKProOldBandAnalytical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D7C273E608300B3FF47 /* FBKProRosaryAnalytical.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CF8273E608300B3FF47 /* FBKProRosaryAnalytical.m */; };
+		04690D7D273E608300B3FF47 /* FBKProtocolRosary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CF9273E608300B3FF47 /* FBKProtocolRosary.m */; };
+		04690D7E273E608300B3FF47 /* FBKProRosaryCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690CFA273E608300B3FF47 /* FBKProRosaryCmd.m */; };
+		04690D7F273E608300B3FF47 /* FBKProRosaryAnalytical.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CFB273E608300B3FF47 /* FBKProRosaryAnalytical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D80273E608300B3FF47 /* FBKProtocolRosary.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CFC273E608300B3FF47 /* FBKProtocolRosary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D81273E608300B3FF47 /* FBKProRosaryCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CFD273E608300B3FF47 /* FBKProRosaryCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D82273E608300B3FF47 /* FBKProtocolKettleBell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690CFF273E608300B3FF47 /* FBKProtocolKettleBell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D83273E608300B3FF47 /* FBKProtocolKettleBell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D00273E608300B3FF47 /* FBKProtocolKettleBell.m */; };
+		04690D84273E608300B3FF47 /* FBKProNTrackerBigData.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D02273E608300B3FF47 /* FBKProNTrackerBigData.m */; };
+		04690D85273E608300B3FF47 /* FBKProNTrackerCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D03273E608300B3FF47 /* FBKProNTrackerCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D86273E608300B3FF47 /* FBKProNTrackerAnalytical.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D04273E608300B3FF47 /* FBKProNTrackerAnalytical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D87273E608300B3FF47 /* FBKAnalyticalHubConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D05273E608300B3FF47 /* FBKAnalyticalHubConfig.m */; };
+		04690D88273E608300B3FF47 /* FBKProNTrackerBigData.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D06273E608300B3FF47 /* FBKProNTrackerBigData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D89273E608300B3FF47 /* FBKProNTrackerCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D07273E608300B3FF47 /* FBKProNTrackerCmd.m */; };
+		04690D8A273E608300B3FF47 /* FBKAnalyticalHubConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D08273E608300B3FF47 /* FBKAnalyticalHubConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D8B273E608300B3FF47 /* FBKProNTrackerAnalytical.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D09273E608300B3FF47 /* FBKProNTrackerAnalytical.m */; };
+		04690D8C273E608300B3FF47 /* FBKProtocolOldScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D0B273E608300B3FF47 /* FBKProtocolOldScale.m */; };
+		04690D8D273E608300B3FF47 /* FBKProOldScaleAnalytical.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D0C273E608300B3FF47 /* FBKProOldScaleAnalytical.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D8E273E608300B3FF47 /* FBKProOldScaleCmd.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D0D273E608300B3FF47 /* FBKProOldScaleCmd.m */; };
+		04690D8F273E608300B3FF47 /* FBKProOldScaleAnalytical.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D0E273E608300B3FF47 /* FBKProOldScaleAnalytical.m */; };
+		04690D90273E608300B3FF47 /* FBKProtocolOldScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D0F273E608300B3FF47 /* FBKProtocolOldScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D91273E608300B3FF47 /* FBKProOldScaleCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D10273E608300B3FF47 /* FBKProOldScaleCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D92273E608300B3FF47 /* FBKProtocolNTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D12273E608300B3FF47 /* FBKProtocolNTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D93273E608300B3FF47 /* FBKProtocolNTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D13273E608300B3FF47 /* FBKProtocolNTracker.m */; };
+		04690D94273E608300B3FF47 /* FBKProtocolNScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D15273E608300B3FF47 /* FBKProtocolNScale.m */; };
+		04690D95273E608300B3FF47 /* FBKProtocolNScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D16273E608300B3FF47 /* FBKProtocolNScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D96273E608300B3FF47 /* FBKProtocolCadence.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D18273E608300B3FF47 /* FBKProtocolCadence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D97273E608300B3FF47 /* FBKProtocolCadence.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D19273E608300B3FF47 /* FBKProtocolCadence.m */; };
+		04690D98273E608300B3FF47 /* FBKProtocolBoxing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D1B273E608300B3FF47 /* FBKProtocolBoxing.m */; };
+		04690D99273E608300B3FF47 /* FBKProtocolBoxing.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D1C273E608300B3FF47 /* FBKProtocolBoxing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D9A273E608300B3FF47 /* FBKProtocolBikeComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D1E273E608300B3FF47 /* FBKProtocolBikeComputer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D9B273E608300B3FF47 /* FBKProtocolBikeComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D1F273E608300B3FF47 /* FBKProtocolBikeComputer.m */; };
+		04690D9C273E608300B3FF47 /* FBKProtocolBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D21273E608300B3FF47 /* FBKProtocolBase.m */; };
+		04690D9D273E608300B3FF47 /* FBKProtocolBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D22273E608300B3FF47 /* FBKProtocolBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690D9E273E608300B3FF47 /* FBKProtocolHubConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D24273E608300B3FF47 /* FBKProtocolHubConfig.m */; };
+		04690D9F273E608300B3FF47 /* FBKProtocolHubConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D25273E608300B3FF47 /* FBKProtocolHubConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DA0273E608300B3FF47 /* FBKManagerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D27273E608300B3FF47 /* FBKManagerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DA1273E608300B3FF47 /* FBKManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D28273E608300B3FF47 /* FBKManagerController.m */; };
+		04690DA2273E608300B3FF47 /* FBKApiArmBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D2B273E608300B3FF47 /* FBKApiArmBand.m */; };
+		04690DA3273E608300B3FF47 /* FBKApiArmBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D2C273E608300B3FF47 /* FBKApiArmBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DA4273E608300B3FF47 /* FBKApiSkipping.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D2E273E608300B3FF47 /* FBKApiSkipping.m */; };
+		04690DA5273E608300B3FF47 /* FBKApiSkipping.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D2F273E608300B3FF47 /* FBKApiSkipping.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DA6273E608300B3FF47 /* FBKApiScanDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D31273E608300B3FF47 /* FBKApiScanDevices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DA7273E608300B3FF47 /* FBKApiScanDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D32273E608300B3FF47 /* FBKApiScanDevices.m */; };
+		04690DA8273E608300B3FF47 /* FBKApiOldBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D34273E608300B3FF47 /* FBKApiOldBand.m */; };
+		04690DA9273E608300B3FF47 /* FBKApiOldBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D35273E608300B3FF47 /* FBKApiOldBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DAA273E608300B3FF47 /* FBKApiBroadcastScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D37273E608300B3FF47 /* FBKApiBroadcastScale.m */; };
+		04690DAB273E608300B3FF47 /* FBKApiBroadcastScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D38273E608300B3FF47 /* FBKApiBroadcastScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DAC273E608300B3FF47 /* FBKApiRosary.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D3A273E608300B3FF47 /* FBKApiRosary.m */; };
+		04690DAD273E608300B3FF47 /* FBKApiRosary.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D3B273E608300B3FF47 /* FBKApiRosary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DAE273E608300B3FF47 /* FBKApiKettleBell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D3D273E608300B3FF47 /* FBKApiKettleBell.m */; };
+		04690DAF273E608300B3FF47 /* FBKApiKettleBell.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D3E273E608300B3FF47 /* FBKApiKettleBell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB0273E608300B3FF47 /* FBKApiOldScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D40273E608300B3FF47 /* FBKApiOldScale.m */; };
+		04690DB1273E608300B3FF47 /* FBKApiOldScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D41273E608300B3FF47 /* FBKApiOldScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB2273E608300B3FF47 /* FBKApiNewBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D43273E608300B3FF47 /* FBKApiNewBand.m */; };
+		04690DB3273E608300B3FF47 /* FBKApiNewBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D44273E608300B3FF47 /* FBKApiNewBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB4273E608300B3FF47 /* FBKApiNewScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D46273E608300B3FF47 /* FBKApiNewScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB5273E608300B3FF47 /* FBKApiNewScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D47273E608300B3FF47 /* FBKApiNewScale.m */; };
+		04690DB6273E608300B3FF47 /* FBKApiHeartRate.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D49273E608300B3FF47 /* FBKApiHeartRate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB7273E608300B3FF47 /* FBKApiHeartRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D4A273E608300B3FF47 /* FBKApiHeartRate.m */; };
+		04690DB8273E608300B3FF47 /* FBKApiCadence.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D4C273E608300B3FF47 /* FBKApiCadence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DB9273E608300B3FF47 /* FBKApiCadence.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D4D273E608300B3FF47 /* FBKApiCadence.m */; };
+		04690DBA273E608300B3FF47 /* FBKApiBoxing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D4F273E608300B3FF47 /* FBKApiBoxing.m */; };
+		04690DBB273E608300B3FF47 /* FBKApiBoxing.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D50273E608300B3FF47 /* FBKApiBoxing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DBC273E608300B3FF47 /* FBKApiBikeComputer.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D52273E608300B3FF47 /* FBKApiBikeComputer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DBD273E608300B3FF47 /* FBKApiBikeComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D53273E608300B3FF47 /* FBKApiBikeComputer.m */; };
+		04690DBE273E608300B3FF47 /* FBKApiBsaeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D55273E608300B3FF47 /* FBKApiBsaeMethod.m */; };
+		04690DBF273E608300B3FF47 /* FBKApiBsaeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D56273E608300B3FF47 /* FBKApiBsaeMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DC0273E608300B3FF47 /* FBKApiHubConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D58273E608300B3FF47 /* FBKApiHubConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DC1273E608300B3FF47 /* FBKApiHubConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D59273E608300B3FF47 /* FBKApiHubConfig.m */; };
+		04690DC2273E608300B3FF47 /* FBKDeviceUserInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D5C273E608300B3FF47 /* FBKDeviceUserInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DC3273E608300B3FF47 /* FBKDeviceUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D5D273E608300B3FF47 /* FBKDeviceUserInfo.m */; };
+		04690DC4273E608300B3FF47 /* FBKDeviceNewBand.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D5F273E608300B3FF47 /* FBKDeviceNewBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DC5273E608300B3FF47 /* FBKDeviceNewBand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D60273E608300B3FF47 /* FBKDeviceNewBand.m */; };
+		04690DC6273E608300B3FF47 /* FBKDeviceNewScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D62273E608300B3FF47 /* FBKDeviceNewScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04690DC7273E608300B3FF47 /* FBKDeviceNewScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D63273E608300B3FF47 /* FBKDeviceNewScale.m */; };
+		04690DC8273E608300B3FF47 /* FBKDeviceBaseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04690D65273E608300B3FF47 /* FBKDeviceBaseInfo.m */; };
+		04690DC9273E608300B3FF47 /* FBKDeviceBaseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 04690D66273E608300B3FF47 /* FBKDeviceBaseInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04690C96273E51F000B3FF47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04690C82273E51EF00B3FF47 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04690C8A273E51EF00B3FF47;
+			remoteInfo = PoochplaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041FE11D2743980C0084ACDB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		04690C8B273E51EF00B3FF47 /* PoochplaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PoochplaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04690C8E273E51EF00B3FF47 /* PoochplaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoochplaySDK.h; sourceTree = "<group>"; };
+		04690C8F273E51EF00B3FF47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04690C94273E51F000B3FF47 /* PoochplaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoochplaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04690CA7273E51FF00B3FF47 /* Poochplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Poochplay.swift; sourceTree = "<group>"; };
+		04690CDD273E608200B3FF47 /* FBKDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKDateFormat.m; sourceTree = "<group>"; };
+		04690CDE273E608200B3FF47 /* FBKSpliceBle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKSpliceBle.h; sourceTree = "<group>"; };
+		04690CDF273E608200B3FF47 /* FBKDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKDateFormat.h; sourceTree = "<group>"; };
+		04690CE0273E608200B3FF47 /* FBKEnumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKEnumList.h; sourceTree = "<group>"; };
+		04690CE1273E608200B3FF47 /* FBKSpliceBle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKSpliceBle.m; sourceTree = "<group>"; };
+		04690CE3273E608200B3FF47 /* FBKBleScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKBleScan.h; sourceTree = "<group>"; };
+		04690CE4273E608200B3FF47 /* FBKBleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKBleController.h; sourceTree = "<group>"; };
+		04690CE5273E608200B3FF47 /* FBKBleScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKBleScan.m; sourceTree = "<group>"; };
+		04690CE6273E608200B3FF47 /* FBKBleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKBleController.m; sourceTree = "<group>"; };
+		04690CE9273E608200B3FF47 /* FBKArmBandCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKArmBandCmd.m; sourceTree = "<group>"; };
+		04690CEA273E608300B3FF47 /* FBKProtocolArmBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolArmBand.m; sourceTree = "<group>"; };
+		04690CEB273E608300B3FF47 /* FBKArmBandCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKArmBandCmd.h; sourceTree = "<group>"; };
+		04690CEC273E608300B3FF47 /* FBKProtocolArmBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolArmBand.h; sourceTree = "<group>"; };
+		04690CEE273E608300B3FF47 /* FBKProtocolSkipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolSkipping.m; sourceTree = "<group>"; };
+		04690CEF273E608300B3FF47 /* FBKProtocolSkipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolSkipping.h; sourceTree = "<group>"; };
+		04690CF1273E608300B3FF47 /* FBKProtocolOldBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolOldBand.m; sourceTree = "<group>"; };
+		04690CF2273E608300B3FF47 /* FBKProOldBandAnalytical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProOldBandAnalytical.m; sourceTree = "<group>"; };
+		04690CF3273E608300B3FF47 /* FBKProOldBandCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProOldBandCmd.h; sourceTree = "<group>"; };
+		04690CF4273E608300B3FF47 /* FBKProtocolOldBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolOldBand.h; sourceTree = "<group>"; };
+		04690CF5273E608300B3FF47 /* FBKProOldBandCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProOldBandCmd.m; sourceTree = "<group>"; };
+		04690CF6273E608300B3FF47 /* FBKProOldBandAnalytical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProOldBandAnalytical.h; sourceTree = "<group>"; };
+		04690CF8273E608300B3FF47 /* FBKProRosaryAnalytical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProRosaryAnalytical.m; sourceTree = "<group>"; };
+		04690CF9273E608300B3FF47 /* FBKProtocolRosary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolRosary.m; sourceTree = "<group>"; };
+		04690CFA273E608300B3FF47 /* FBKProRosaryCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProRosaryCmd.m; sourceTree = "<group>"; };
+		04690CFB273E608300B3FF47 /* FBKProRosaryAnalytical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProRosaryAnalytical.h; sourceTree = "<group>"; };
+		04690CFC273E608300B3FF47 /* FBKProtocolRosary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolRosary.h; sourceTree = "<group>"; };
+		04690CFD273E608300B3FF47 /* FBKProRosaryCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProRosaryCmd.h; sourceTree = "<group>"; };
+		04690CFF273E608300B3FF47 /* FBKProtocolKettleBell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolKettleBell.h; sourceTree = "<group>"; };
+		04690D00273E608300B3FF47 /* FBKProtocolKettleBell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolKettleBell.m; sourceTree = "<group>"; };
+		04690D02273E608300B3FF47 /* FBKProNTrackerBigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProNTrackerBigData.m; sourceTree = "<group>"; };
+		04690D03273E608300B3FF47 /* FBKProNTrackerCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProNTrackerCmd.h; sourceTree = "<group>"; };
+		04690D04273E608300B3FF47 /* FBKProNTrackerAnalytical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProNTrackerAnalytical.h; sourceTree = "<group>"; };
+		04690D05273E608300B3FF47 /* FBKAnalyticalHubConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKAnalyticalHubConfig.m; sourceTree = "<group>"; };
+		04690D06273E608300B3FF47 /* FBKProNTrackerBigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProNTrackerBigData.h; sourceTree = "<group>"; };
+		04690D07273E608300B3FF47 /* FBKProNTrackerCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProNTrackerCmd.m; sourceTree = "<group>"; };
+		04690D08273E608300B3FF47 /* FBKAnalyticalHubConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKAnalyticalHubConfig.h; sourceTree = "<group>"; };
+		04690D09273E608300B3FF47 /* FBKProNTrackerAnalytical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProNTrackerAnalytical.m; sourceTree = "<group>"; };
+		04690D0B273E608300B3FF47 /* FBKProtocolOldScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolOldScale.m; sourceTree = "<group>"; };
+		04690D0C273E608300B3FF47 /* FBKProOldScaleAnalytical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProOldScaleAnalytical.h; sourceTree = "<group>"; };
+		04690D0D273E608300B3FF47 /* FBKProOldScaleCmd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProOldScaleCmd.m; sourceTree = "<group>"; };
+		04690D0E273E608300B3FF47 /* FBKProOldScaleAnalytical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProOldScaleAnalytical.m; sourceTree = "<group>"; };
+		04690D0F273E608300B3FF47 /* FBKProtocolOldScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolOldScale.h; sourceTree = "<group>"; };
+		04690D10273E608300B3FF47 /* FBKProOldScaleCmd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProOldScaleCmd.h; sourceTree = "<group>"; };
+		04690D12273E608300B3FF47 /* FBKProtocolNTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolNTracker.h; sourceTree = "<group>"; };
+		04690D13273E608300B3FF47 /* FBKProtocolNTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolNTracker.m; sourceTree = "<group>"; };
+		04690D15273E608300B3FF47 /* FBKProtocolNScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolNScale.m; sourceTree = "<group>"; };
+		04690D16273E608300B3FF47 /* FBKProtocolNScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolNScale.h; sourceTree = "<group>"; };
+		04690D18273E608300B3FF47 /* FBKProtocolCadence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolCadence.h; sourceTree = "<group>"; };
+		04690D19273E608300B3FF47 /* FBKProtocolCadence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolCadence.m; sourceTree = "<group>"; };
+		04690D1B273E608300B3FF47 /* FBKProtocolBoxing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolBoxing.m; sourceTree = "<group>"; };
+		04690D1C273E608300B3FF47 /* FBKProtocolBoxing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolBoxing.h; sourceTree = "<group>"; };
+		04690D1E273E608300B3FF47 /* FBKProtocolBikeComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolBikeComputer.h; sourceTree = "<group>"; };
+		04690D1F273E608300B3FF47 /* FBKProtocolBikeComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolBikeComputer.m; sourceTree = "<group>"; };
+		04690D21273E608300B3FF47 /* FBKProtocolBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolBase.m; sourceTree = "<group>"; };
+		04690D22273E608300B3FF47 /* FBKProtocolBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolBase.h; sourceTree = "<group>"; };
+		04690D24273E608300B3FF47 /* FBKProtocolHubConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKProtocolHubConfig.m; sourceTree = "<group>"; };
+		04690D25273E608300B3FF47 /* FBKProtocolHubConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKProtocolHubConfig.h; sourceTree = "<group>"; };
+		04690D27273E608300B3FF47 /* FBKManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKManagerController.h; sourceTree = "<group>"; };
+		04690D28273E608300B3FF47 /* FBKManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKManagerController.m; sourceTree = "<group>"; };
+		04690D2B273E608300B3FF47 /* FBKApiArmBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiArmBand.m; sourceTree = "<group>"; };
+		04690D2C273E608300B3FF47 /* FBKApiArmBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiArmBand.h; sourceTree = "<group>"; };
+		04690D2E273E608300B3FF47 /* FBKApiSkipping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiSkipping.m; sourceTree = "<group>"; };
+		04690D2F273E608300B3FF47 /* FBKApiSkipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiSkipping.h; sourceTree = "<group>"; };
+		04690D31273E608300B3FF47 /* FBKApiScanDevices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiScanDevices.h; sourceTree = "<group>"; };
+		04690D32273E608300B3FF47 /* FBKApiScanDevices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiScanDevices.m; sourceTree = "<group>"; };
+		04690D34273E608300B3FF47 /* FBKApiOldBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiOldBand.m; sourceTree = "<group>"; };
+		04690D35273E608300B3FF47 /* FBKApiOldBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiOldBand.h; sourceTree = "<group>"; };
+		04690D37273E608300B3FF47 /* FBKApiBroadcastScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiBroadcastScale.m; sourceTree = "<group>"; };
+		04690D38273E608300B3FF47 /* FBKApiBroadcastScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiBroadcastScale.h; sourceTree = "<group>"; };
+		04690D3A273E608300B3FF47 /* FBKApiRosary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiRosary.m; sourceTree = "<group>"; };
+		04690D3B273E608300B3FF47 /* FBKApiRosary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiRosary.h; sourceTree = "<group>"; };
+		04690D3D273E608300B3FF47 /* FBKApiKettleBell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiKettleBell.m; sourceTree = "<group>"; };
+		04690D3E273E608300B3FF47 /* FBKApiKettleBell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiKettleBell.h; sourceTree = "<group>"; };
+		04690D40273E608300B3FF47 /* FBKApiOldScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiOldScale.m; sourceTree = "<group>"; };
+		04690D41273E608300B3FF47 /* FBKApiOldScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiOldScale.h; sourceTree = "<group>"; };
+		04690D43273E608300B3FF47 /* FBKApiNewBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiNewBand.m; sourceTree = "<group>"; };
+		04690D44273E608300B3FF47 /* FBKApiNewBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiNewBand.h; sourceTree = "<group>"; };
+		04690D46273E608300B3FF47 /* FBKApiNewScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiNewScale.h; sourceTree = "<group>"; };
+		04690D47273E608300B3FF47 /* FBKApiNewScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiNewScale.m; sourceTree = "<group>"; };
+		04690D49273E608300B3FF47 /* FBKApiHeartRate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiHeartRate.h; sourceTree = "<group>"; };
+		04690D4A273E608300B3FF47 /* FBKApiHeartRate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiHeartRate.m; sourceTree = "<group>"; };
+		04690D4C273E608300B3FF47 /* FBKApiCadence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiCadence.h; sourceTree = "<group>"; };
+		04690D4D273E608300B3FF47 /* FBKApiCadence.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiCadence.m; sourceTree = "<group>"; };
+		04690D4F273E608300B3FF47 /* FBKApiBoxing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiBoxing.m; sourceTree = "<group>"; };
+		04690D50273E608300B3FF47 /* FBKApiBoxing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiBoxing.h; sourceTree = "<group>"; };
+		04690D52273E608300B3FF47 /* FBKApiBikeComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiBikeComputer.h; sourceTree = "<group>"; };
+		04690D53273E608300B3FF47 /* FBKApiBikeComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiBikeComputer.m; sourceTree = "<group>"; };
+		04690D55273E608300B3FF47 /* FBKApiBsaeMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiBsaeMethod.m; sourceTree = "<group>"; };
+		04690D56273E608300B3FF47 /* FBKApiBsaeMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiBsaeMethod.h; sourceTree = "<group>"; };
+		04690D58273E608300B3FF47 /* FBKApiHubConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKApiHubConfig.h; sourceTree = "<group>"; };
+		04690D59273E608300B3FF47 /* FBKApiHubConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKApiHubConfig.m; sourceTree = "<group>"; };
+		04690D5C273E608300B3FF47 /* FBKDeviceUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKDeviceUserInfo.h; sourceTree = "<group>"; };
+		04690D5D273E608300B3FF47 /* FBKDeviceUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKDeviceUserInfo.m; sourceTree = "<group>"; };
+		04690D5F273E608300B3FF47 /* FBKDeviceNewBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKDeviceNewBand.h; sourceTree = "<group>"; };
+		04690D60273E608300B3FF47 /* FBKDeviceNewBand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKDeviceNewBand.m; sourceTree = "<group>"; };
+		04690D62273E608300B3FF47 /* FBKDeviceNewScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKDeviceNewScale.h; sourceTree = "<group>"; };
+		04690D63273E608300B3FF47 /* FBKDeviceNewScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKDeviceNewScale.m; sourceTree = "<group>"; };
+		04690D65273E608300B3FF47 /* FBKDeviceBaseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKDeviceBaseInfo.m; sourceTree = "<group>"; };
+		04690D66273E608300B3FF47 /* FBKDeviceBaseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKDeviceBaseInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04690C88273E51EF00B3FF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041FE11E2743980C0084ACDB /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04690C91273E51F000B3FF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04690C95273E51F000B3FF47 /* PoochplaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041FE11C2743980C0084ACDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041FE11D2743980C0084ACDB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04690C81273E51EF00B3FF47 = {
+			isa = PBXGroup;
+			children = (
+				04690C8D273E51EF00B3FF47 /* PoochplaySDK */,
+				04690C8C273E51EF00B3FF47 /* Products */,
+				041FE11C2743980C0084ACDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04690C8C273E51EF00B3FF47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04690C8B273E51EF00B3FF47 /* PoochplaySDK.framework */,
+				04690C94273E51F000B3FF47 /* PoochplaySDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04690C8D273E51EF00B3FF47 /* PoochplaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				04690C8E273E51EF00B3FF47 /* PoochplaySDK.h */,
+				04690C8F273E51EF00B3FF47 /* Info.plist */,
+				04690CA7273E51FF00B3FF47 /* Poochplay.swift */,
+				04690CDB273E608200B3FF47 /* FitBleKit */,
+			);
+			path = PoochplaySDK;
+			sourceTree = "<group>";
+		};
+		04690CDB273E608200B3FF47 /* FitBleKit */ = {
+			isa = PBXGroup;
+			children = (
+				04690CDC273E608200B3FF47 /* Tools */,
+				04690CE2273E608200B3FF47 /* Ble */,
+				04690CE7273E608200B3FF47 /* Protocol */,
+				04690D26273E608300B3FF47 /* Manager */,
+				04690D29273E608300B3FF47 /* API */,
+				04690D5A273E608300B3FF47 /* Devices */,
+			);
+			path = FitBleKit;
+			sourceTree = "<group>";
+		};
+		04690CDC273E608200B3FF47 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				04690CDD273E608200B3FF47 /* FBKDateFormat.m */,
+				04690CDE273E608200B3FF47 /* FBKSpliceBle.h */,
+				04690CDF273E608200B3FF47 /* FBKDateFormat.h */,
+				04690CE0273E608200B3FF47 /* FBKEnumList.h */,
+				04690CE1273E608200B3FF47 /* FBKSpliceBle.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		04690CE2273E608200B3FF47 /* Ble */ = {
+			isa = PBXGroup;
+			children = (
+				04690CE3273E608200B3FF47 /* FBKBleScan.h */,
+				04690CE4273E608200B3FF47 /* FBKBleController.h */,
+				04690CE5273E608200B3FF47 /* FBKBleScan.m */,
+				04690CE6273E608200B3FF47 /* FBKBleController.m */,
+			);
+			path = Ble;
+			sourceTree = "<group>";
+		};
+		04690CE7273E608200B3FF47 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				04690CE8273E608200B3FF47 /* ArmBand */,
+				04690CED273E608300B3FF47 /* Skipping */,
+				04690CF0273E608300B3FF47 /* OldBand */,
+				04690CF7273E608300B3FF47 /* Rosary */,
+				04690CFE273E608300B3FF47 /* KettleBell */,
+				04690D01273E608300B3FF47 /* Common */,
+				04690D0A273E608300B3FF47 /* OldScale */,
+				04690D11273E608300B3FF47 /* NewBand */,
+				04690D14273E608300B3FF47 /* NewScale */,
+				04690D17273E608300B3FF47 /* Cadence */,
+				04690D1A273E608300B3FF47 /* Boxing */,
+				04690D1D273E608300B3FF47 /* BikeComputer */,
+				04690D20273E608300B3FF47 /* Base */,
+				04690D23273E608300B3FF47 /* HubConfig */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		04690CE8273E608200B3FF47 /* ArmBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690CE9273E608200B3FF47 /* FBKArmBandCmd.m */,
+				04690CEA273E608300B3FF47 /* FBKProtocolArmBand.m */,
+				04690CEB273E608300B3FF47 /* FBKArmBandCmd.h */,
+				04690CEC273E608300B3FF47 /* FBKProtocolArmBand.h */,
+			);
+			path = ArmBand;
+			sourceTree = "<group>";
+		};
+		04690CED273E608300B3FF47 /* Skipping */ = {
+			isa = PBXGroup;
+			children = (
+				04690CEE273E608300B3FF47 /* FBKProtocolSkipping.m */,
+				04690CEF273E608300B3FF47 /* FBKProtocolSkipping.h */,
+			);
+			path = Skipping;
+			sourceTree = "<group>";
+		};
+		04690CF0273E608300B3FF47 /* OldBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690CF1273E608300B3FF47 /* FBKProtocolOldBand.m */,
+				04690CF2273E608300B3FF47 /* FBKProOldBandAnalytical.m */,
+				04690CF3273E608300B3FF47 /* FBKProOldBandCmd.h */,
+				04690CF4273E608300B3FF47 /* FBKProtocolOldBand.h */,
+				04690CF5273E608300B3FF47 /* FBKProOldBandCmd.m */,
+				04690CF6273E608300B3FF47 /* FBKProOldBandAnalytical.h */,
+			);
+			path = OldBand;
+			sourceTree = "<group>";
+		};
+		04690CF7273E608300B3FF47 /* Rosary */ = {
+			isa = PBXGroup;
+			children = (
+				04690CF8273E608300B3FF47 /* FBKProRosaryAnalytical.m */,
+				04690CF9273E608300B3FF47 /* FBKProtocolRosary.m */,
+				04690CFA273E608300B3FF47 /* FBKProRosaryCmd.m */,
+				04690CFB273E608300B3FF47 /* FBKProRosaryAnalytical.h */,
+				04690CFC273E608300B3FF47 /* FBKProtocolRosary.h */,
+				04690CFD273E608300B3FF47 /* FBKProRosaryCmd.h */,
+			);
+			path = Rosary;
+			sourceTree = "<group>";
+		};
+		04690CFE273E608300B3FF47 /* KettleBell */ = {
+			isa = PBXGroup;
+			children = (
+				04690CFF273E608300B3FF47 /* FBKProtocolKettleBell.h */,
+				04690D00273E608300B3FF47 /* FBKProtocolKettleBell.m */,
+			);
+			path = KettleBell;
+			sourceTree = "<group>";
+		};
+		04690D01273E608300B3FF47 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				04690D02273E608300B3FF47 /* FBKProNTrackerBigData.m */,
+				04690D03273E608300B3FF47 /* FBKProNTrackerCmd.h */,
+				04690D04273E608300B3FF47 /* FBKProNTrackerAnalytical.h */,
+				04690D05273E608300B3FF47 /* FBKAnalyticalHubConfig.m */,
+				04690D06273E608300B3FF47 /* FBKProNTrackerBigData.h */,
+				04690D07273E608300B3FF47 /* FBKProNTrackerCmd.m */,
+				04690D08273E608300B3FF47 /* FBKAnalyticalHubConfig.h */,
+				04690D09273E608300B3FF47 /* FBKProNTrackerAnalytical.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		04690D0A273E608300B3FF47 /* OldScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D0B273E608300B3FF47 /* FBKProtocolOldScale.m */,
+				04690D0C273E608300B3FF47 /* FBKProOldScaleAnalytical.h */,
+				04690D0D273E608300B3FF47 /* FBKProOldScaleCmd.m */,
+				04690D0E273E608300B3FF47 /* FBKProOldScaleAnalytical.m */,
+				04690D0F273E608300B3FF47 /* FBKProtocolOldScale.h */,
+				04690D10273E608300B3FF47 /* FBKProOldScaleCmd.h */,
+			);
+			path = OldScale;
+			sourceTree = "<group>";
+		};
+		04690D11273E608300B3FF47 /* NewBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690D12273E608300B3FF47 /* FBKProtocolNTracker.h */,
+				04690D13273E608300B3FF47 /* FBKProtocolNTracker.m */,
+			);
+			path = NewBand;
+			sourceTree = "<group>";
+		};
+		04690D14273E608300B3FF47 /* NewScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D15273E608300B3FF47 /* FBKProtocolNScale.m */,
+				04690D16273E608300B3FF47 /* FBKProtocolNScale.h */,
+			);
+			path = NewScale;
+			sourceTree = "<group>";
+		};
+		04690D17273E608300B3FF47 /* Cadence */ = {
+			isa = PBXGroup;
+			children = (
+				04690D18273E608300B3FF47 /* FBKProtocolCadence.h */,
+				04690D19273E608300B3FF47 /* FBKProtocolCadence.m */,
+			);
+			path = Cadence;
+			sourceTree = "<group>";
+		};
+		04690D1A273E608300B3FF47 /* Boxing */ = {
+			isa = PBXGroup;
+			children = (
+				04690D1B273E608300B3FF47 /* FBKProtocolBoxing.m */,
+				04690D1C273E608300B3FF47 /* FBKProtocolBoxing.h */,
+			);
+			path = Boxing;
+			sourceTree = "<group>";
+		};
+		04690D1D273E608300B3FF47 /* BikeComputer */ = {
+			isa = PBXGroup;
+			children = (
+				04690D1E273E608300B3FF47 /* FBKProtocolBikeComputer.h */,
+				04690D1F273E608300B3FF47 /* FBKProtocolBikeComputer.m */,
+			);
+			path = BikeComputer;
+			sourceTree = "<group>";
+		};
+		04690D20273E608300B3FF47 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04690D21273E608300B3FF47 /* FBKProtocolBase.m */,
+				04690D22273E608300B3FF47 /* FBKProtocolBase.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04690D23273E608300B3FF47 /* HubConfig */ = {
+			isa = PBXGroup;
+			children = (
+				04690D24273E608300B3FF47 /* FBKProtocolHubConfig.m */,
+				04690D25273E608300B3FF47 /* FBKProtocolHubConfig.h */,
+			);
+			path = HubConfig;
+			sourceTree = "<group>";
+		};
+		04690D26273E608300B3FF47 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04690D27273E608300B3FF47 /* FBKManagerController.h */,
+				04690D28273E608300B3FF47 /* FBKManagerController.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		04690D29273E608300B3FF47 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				04690D2A273E608300B3FF47 /* ArmBand */,
+				04690D2D273E608300B3FF47 /* Skipping */,
+				04690D30273E608300B3FF47 /* ScanDevice */,
+				04690D33273E608300B3FF47 /* OldBand */,
+				04690D36273E608300B3FF47 /* BroadcastingScale */,
+				04690D39273E608300B3FF47 /* Rosary */,
+				04690D3C273E608300B3FF47 /* KettleBell */,
+				04690D3F273E608300B3FF47 /* OldScale */,
+				04690D42273E608300B3FF47 /* NewBand */,
+				04690D45273E608300B3FF47 /* NewScale */,
+				04690D48273E608300B3FF47 /* HeartRate */,
+				04690D4B273E608300B3FF47 /* Cadence */,
+				04690D4E273E608300B3FF47 /* Boxing */,
+				04690D51273E608300B3FF47 /* BikeComputer */,
+				04690D54273E608300B3FF47 /* Base */,
+				04690D57273E608300B3FF47 /* HubConfig */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		04690D2A273E608300B3FF47 /* ArmBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690D2B273E608300B3FF47 /* FBKApiArmBand.m */,
+				04690D2C273E608300B3FF47 /* FBKApiArmBand.h */,
+			);
+			path = ArmBand;
+			sourceTree = "<group>";
+		};
+		04690D2D273E608300B3FF47 /* Skipping */ = {
+			isa = PBXGroup;
+			children = (
+				04690D2E273E608300B3FF47 /* FBKApiSkipping.m */,
+				04690D2F273E608300B3FF47 /* FBKApiSkipping.h */,
+			);
+			path = Skipping;
+			sourceTree = "<group>";
+		};
+		04690D30273E608300B3FF47 /* ScanDevice */ = {
+			isa = PBXGroup;
+			children = (
+				04690D31273E608300B3FF47 /* FBKApiScanDevices.h */,
+				04690D32273E608300B3FF47 /* FBKApiScanDevices.m */,
+			);
+			path = ScanDevice;
+			sourceTree = "<group>";
+		};
+		04690D33273E608300B3FF47 /* OldBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690D34273E608300B3FF47 /* FBKApiOldBand.m */,
+				04690D35273E608300B3FF47 /* FBKApiOldBand.h */,
+			);
+			path = OldBand;
+			sourceTree = "<group>";
+		};
+		04690D36273E608300B3FF47 /* BroadcastingScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D37273E608300B3FF47 /* FBKApiBroadcastScale.m */,
+				04690D38273E608300B3FF47 /* FBKApiBroadcastScale.h */,
+			);
+			path = BroadcastingScale;
+			sourceTree = "<group>";
+		};
+		04690D39273E608300B3FF47 /* Rosary */ = {
+			isa = PBXGroup;
+			children = (
+				04690D3A273E608300B3FF47 /* FBKApiRosary.m */,
+				04690D3B273E608300B3FF47 /* FBKApiRosary.h */,
+			);
+			path = Rosary;
+			sourceTree = "<group>";
+		};
+		04690D3C273E608300B3FF47 /* KettleBell */ = {
+			isa = PBXGroup;
+			children = (
+				04690D3D273E608300B3FF47 /* FBKApiKettleBell.m */,
+				04690D3E273E608300B3FF47 /* FBKApiKettleBell.h */,
+			);
+			path = KettleBell;
+			sourceTree = "<group>";
+		};
+		04690D3F273E608300B3FF47 /* OldScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D40273E608300B3FF47 /* FBKApiOldScale.m */,
+				04690D41273E608300B3FF47 /* FBKApiOldScale.h */,
+			);
+			path = OldScale;
+			sourceTree = "<group>";
+		};
+		04690D42273E608300B3FF47 /* NewBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690D43273E608300B3FF47 /* FBKApiNewBand.m */,
+				04690D44273E608300B3FF47 /* FBKApiNewBand.h */,
+			);
+			path = NewBand;
+			sourceTree = "<group>";
+		};
+		04690D45273E608300B3FF47 /* NewScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D46273E608300B3FF47 /* FBKApiNewScale.h */,
+				04690D47273E608300B3FF47 /* FBKApiNewScale.m */,
+			);
+			path = NewScale;
+			sourceTree = "<group>";
+		};
+		04690D48273E608300B3FF47 /* HeartRate */ = {
+			isa = PBXGroup;
+			children = (
+				04690D49273E608300B3FF47 /* FBKApiHeartRate.h */,
+				04690D4A273E608300B3FF47 /* FBKApiHeartRate.m */,
+			);
+			path = HeartRate;
+			sourceTree = "<group>";
+		};
+		04690D4B273E608300B3FF47 /* Cadence */ = {
+			isa = PBXGroup;
+			children = (
+				04690D4C273E608300B3FF47 /* FBKApiCadence.h */,
+				04690D4D273E608300B3FF47 /* FBKApiCadence.m */,
+			);
+			path = Cadence;
+			sourceTree = "<group>";
+		};
+		04690D4E273E608300B3FF47 /* Boxing */ = {
+			isa = PBXGroup;
+			children = (
+				04690D4F273E608300B3FF47 /* FBKApiBoxing.m */,
+				04690D50273E608300B3FF47 /* FBKApiBoxing.h */,
+			);
+			path = Boxing;
+			sourceTree = "<group>";
+		};
+		04690D51273E608300B3FF47 /* BikeComputer */ = {
+			isa = PBXGroup;
+			children = (
+				04690D52273E608300B3FF47 /* FBKApiBikeComputer.h */,
+				04690D53273E608300B3FF47 /* FBKApiBikeComputer.m */,
+			);
+			path = BikeComputer;
+			sourceTree = "<group>";
+		};
+		04690D54273E608300B3FF47 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04690D55273E608300B3FF47 /* FBKApiBsaeMethod.m */,
+				04690D56273E608300B3FF47 /* FBKApiBsaeMethod.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04690D57273E608300B3FF47 /* HubConfig */ = {
+			isa = PBXGroup;
+			children = (
+				04690D58273E608300B3FF47 /* FBKApiHubConfig.h */,
+				04690D59273E608300B3FF47 /* FBKApiHubConfig.m */,
+			);
+			path = HubConfig;
+			sourceTree = "<group>";
+		};
+		04690D5A273E608300B3FF47 /* Devices */ = {
+			isa = PBXGroup;
+			children = (
+				04690D5B273E608300B3FF47 /* Model */,
+				04690D5E273E608300B3FF47 /* NewBand */,
+				04690D61273E608300B3FF47 /* NewScale */,
+				04690D64273E608300B3FF47 /* Base */,
+			);
+			path = Devices;
+			sourceTree = "<group>";
+		};
+		04690D5B273E608300B3FF47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04690D5C273E608300B3FF47 /* FBKDeviceUserInfo.h */,
+				04690D5D273E608300B3FF47 /* FBKDeviceUserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04690D5E273E608300B3FF47 /* NewBand */ = {
+			isa = PBXGroup;
+			children = (
+				04690D5F273E608300B3FF47 /* FBKDeviceNewBand.h */,
+				04690D60273E608300B3FF47 /* FBKDeviceNewBand.m */,
+			);
+			path = NewBand;
+			sourceTree = "<group>";
+		};
+		04690D61273E608300B3FF47 /* NewScale */ = {
+			isa = PBXGroup;
+			children = (
+				04690D62273E608300B3FF47 /* FBKDeviceNewScale.h */,
+				04690D63273E608300B3FF47 /* FBKDeviceNewScale.m */,
+			);
+			path = NewScale;
+			sourceTree = "<group>";
+		};
+		04690D64273E608300B3FF47 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04690D65273E608300B3FF47 /* FBKDeviceBaseInfo.m */,
+				04690D66273E608300B3FF47 /* FBKDeviceBaseInfo.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04690C86273E51EF00B3FF47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04690D8A273E608300B3FF47 /* FBKAnalyticalHubConfig.h in Headers */,
+				04690D86273E608300B3FF47 /* FBKProNTrackerAnalytical.h in Headers */,
+				04690DA6273E608300B3FF47 /* FBKApiScanDevices.h in Headers */,
+				04690DA9273E608300B3FF47 /* FBKApiOldBand.h in Headers */,
+				04690D9F273E608300B3FF47 /* FBKProtocolHubConfig.h in Headers */,
+				04690D92273E608300B3FF47 /* FBKProtocolNTracker.h in Headers */,
+				04690D6C273E608300B3FF47 /* FBKBleScan.h in Headers */,
+				04690D9D273E608300B3FF47 /* FBKProtocolBase.h in Headers */,
+				04690D90273E608300B3FF47 /* FBKProtocolOldScale.h in Headers */,
+				04690DA3273E608300B3FF47 /* FBKApiArmBand.h in Headers */,
+				04690D68273E608300B3FF47 /* FBKSpliceBle.h in Headers */,
+				04690DA0273E608300B3FF47 /* FBKManagerController.h in Headers */,
+				04690D85273E608300B3FF47 /* FBKProNTrackerCmd.h in Headers */,
+				04690DBF273E608300B3FF47 /* FBKApiBsaeMethod.h in Headers */,
+				04690D80273E608300B3FF47 /* FBKProtocolRosary.h in Headers */,
+				04690DAD273E608300B3FF47 /* FBKApiRosary.h in Headers */,
+				04690D99273E608300B3FF47 /* FBKProtocolBoxing.h in Headers */,
+				04690D96273E608300B3FF47 /* FBKProtocolCadence.h in Headers */,
+				04690DBC273E608300B3FF47 /* FBKApiBikeComputer.h in Headers */,
+				04690DAB273E608300B3FF47 /* FBKApiBroadcastScale.h in Headers */,
+				04690D7F273E608300B3FF47 /* FBKProRosaryAnalytical.h in Headers */,
+				04690DAF273E608300B3FF47 /* FBKApiKettleBell.h in Headers */,
+				04690D79273E608300B3FF47 /* FBKProtocolOldBand.h in Headers */,
+				04690DC2273E608300B3FF47 /* FBKDeviceUserInfo.h in Headers */,
+				04690D78273E608300B3FF47 /* FBKProOldBandCmd.h in Headers */,
+				04690DA5273E608300B3FF47 /* FBKApiSkipping.h in Headers */,
+				04690D69273E608300B3FF47 /* FBKDateFormat.h in Headers */,
+				04690DB6273E608300B3FF47 /* FBKApiHeartRate.h in Headers */,
+				04690D9A273E608300B3FF47 /* FBKProtocolBikeComputer.h in Headers */,
+				04690DB3273E608300B3FF47 /* FBKApiNewBand.h in Headers */,
+				04690C9C273E51F000B3FF47 /* PoochplaySDK.h in Headers */,
+				04690D73273E608300B3FF47 /* FBKProtocolArmBand.h in Headers */,
+				04690D91273E608300B3FF47 /* FBKProOldScaleCmd.h in Headers */,
+				04690D6D273E608300B3FF47 /* FBKBleController.h in Headers */,
+				04690D82273E608300B3FF47 /* FBKProtocolKettleBell.h in Headers */,
+				04690DC0273E608300B3FF47 /* FBKApiHubConfig.h in Headers */,
+				04690DC4273E608300B3FF47 /* FBKDeviceNewBand.h in Headers */,
+				04690D75273E608300B3FF47 /* FBKProtocolSkipping.h in Headers */,
+				04690D7B273E608300B3FF47 /* FBKProOldBandAnalytical.h in Headers */,
+				04690D95273E608300B3FF47 /* FBKProtocolNScale.h in Headers */,
+				04690DC9273E608300B3FF47 /* FBKDeviceBaseInfo.h in Headers */,
+				04690DC6273E608300B3FF47 /* FBKDeviceNewScale.h in Headers */,
+				04690D6A273E608300B3FF47 /* FBKEnumList.h in Headers */,
+				04690D88273E608300B3FF47 /* FBKProNTrackerBigData.h in Headers */,
+				04690D81273E608300B3FF47 /* FBKProRosaryCmd.h in Headers */,
+				04690DB4273E608300B3FF47 /* FBKApiNewScale.h in Headers */,
+				04690D8D273E608300B3FF47 /* FBKProOldScaleAnalytical.h in Headers */,
+				04690DBB273E608300B3FF47 /* FBKApiBoxing.h in Headers */,
+				04690D72273E608300B3FF47 /* FBKArmBandCmd.h in Headers */,
+				04690DB8273E608300B3FF47 /* FBKApiCadence.h in Headers */,
+				04690DB1273E608300B3FF47 /* FBKApiOldScale.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04690C8A273E51EF00B3FF47 /* PoochplaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04690C9F273E51F000B3FF47 /* Build configuration list for PBXNativeTarget "PoochplaySDK" */;
+			buildPhases = (
+				04690C86273E51EF00B3FF47 /* Headers */,
+				04690C87273E51EF00B3FF47 /* Sources */,
+				04690C88273E51EF00B3FF47 /* Frameworks */,
+				04690C89273E51EF00B3FF47 /* Resources */,
+				04564AA0273E95DC00E35789 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoochplaySDK;
+			productName = PoochplaySDK;
+			productReference = 04690C8B273E51EF00B3FF47 /* PoochplaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		04690C93273E51F000B3FF47 /* PoochplaySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04690CA2273E51F000B3FF47 /* Build configuration list for PBXNativeTarget "PoochplaySDKTests" */;
+			buildPhases = (
+				04690C90273E51F000B3FF47 /* Sources */,
+				04690C91273E51F000B3FF47 /* Frameworks */,
+				04690C92273E51F000B3FF47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04690C97273E51F000B3FF47 /* PBXTargetDependency */,
+			);
+			name = PoochplaySDKTests;
+			productName = PoochplaySDKTests;
+			productReference = 04690C94273E51F000B3FF47 /* PoochplaySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04690C82273E51EF00B3FF47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					04690C8A273E51EF00B3FF47 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+					04690C93273E51F000B3FF47 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					04690CAF273E528400B3FF47 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 04690C85273E51EF00B3FF47 /* Build configuration list for PBXProject "PoochplaySDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04690C81273E51EF00B3FF47;
+			productRefGroup = 04690C8C273E51EF00B3FF47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04690C8A273E51EF00B3FF47 /* PoochplaySDK */,
+				04690C93273E51F000B3FF47 /* PoochplaySDKTests */,
+				04690CAF273E528400B3FF47 /* Aggregate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04690C89273E51EF00B3FF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04690C92273E51F000B3FF47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04564AA0273E95DC00E35789 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		04690CB6273E529C00B3FF47 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Make sure the output directory exists\n\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/VfkFrameworkDemo.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\n\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/VfkFrameworkDemo.framework/Modules/VfkFrameworkDemo.swiftmodule/.\" \"${UNIVERSAL_OUTPUTFOLDER}/VfkFrameworkDemo.framework/Modules/VfkFrameworkDemo.swiftmodule\"\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\n\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/VfkFrameworkDemo.framework/VfkFrameworkDemo\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/VfkFrameworkDemo.framework/VfkFrameworkDemo\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/VfkFrameworkDemo.framework/VfkFrameworkDemo\"\n\n\n# Step 5. Convenience step to open the project's directory in Finder\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04690C87273E51EF00B3FF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04690D83273E608300B3FF47 /* FBKProtocolKettleBell.m in Sources */,
+				04690DAA273E608300B3FF47 /* FBKApiBroadcastScale.m in Sources */,
+				04690DA1273E608300B3FF47 /* FBKManagerController.m in Sources */,
+				04690D77273E608300B3FF47 /* FBKProOldBandAnalytical.m in Sources */,
+				04690DA8273E608300B3FF47 /* FBKApiOldBand.m in Sources */,
+				04690D7D273E608300B3FF47 /* FBKProtocolRosary.m in Sources */,
+				04690DBD273E608300B3FF47 /* FBKApiBikeComputer.m in Sources */,
+				04690D7E273E608300B3FF47 /* FBKProRosaryCmd.m in Sources */,
+				04690DBA273E608300B3FF47 /* FBKApiBoxing.m in Sources */,
+				04690D8B273E608300B3FF47 /* FBKProNTrackerAnalytical.m in Sources */,
+				04690D70273E608300B3FF47 /* FBKArmBandCmd.m in Sources */,
+				04690D98273E608300B3FF47 /* FBKProtocolBoxing.m in Sources */,
+				04690DAC273E608300B3FF47 /* FBKApiRosary.m in Sources */,
+				04690D71273E608300B3FF47 /* FBKProtocolArmBand.m in Sources */,
+				04690D9C273E608300B3FF47 /* FBKProtocolBase.m in Sources */,
+				04690DC5273E608300B3FF47 /* FBKDeviceNewBand.m in Sources */,
+				04690DC8273E608300B3FF47 /* FBKDeviceBaseInfo.m in Sources */,
+				04690D74273E608300B3FF47 /* FBKProtocolSkipping.m in Sources */,
+				04690D93273E608300B3FF47 /* FBKProtocolNTracker.m in Sources */,
+				04690D9E273E608300B3FF47 /* FBKProtocolHubConfig.m in Sources */,
+				04690DC7273E608300B3FF47 /* FBKDeviceNewScale.m in Sources */,
+				04690D94273E608300B3FF47 /* FBKProtocolNScale.m in Sources */,
+				04690DB0273E608300B3FF47 /* FBKApiOldScale.m in Sources */,
+				04690D6B273E608300B3FF47 /* FBKSpliceBle.m in Sources */,
+				04690DAE273E608300B3FF47 /* FBKApiKettleBell.m in Sources */,
+				04690D97273E608300B3FF47 /* FBKProtocolCadence.m in Sources */,
+				04690D7C273E608300B3FF47 /* FBKProRosaryAnalytical.m in Sources */,
+				04690DC3273E608300B3FF47 /* FBKDeviceUserInfo.m in Sources */,
+				04690DB2273E608300B3FF47 /* FBKApiNewBand.m in Sources */,
+				04690D7A273E608300B3FF47 /* FBKProOldBandCmd.m in Sources */,
+				04690D76273E608300B3FF47 /* FBKProtocolOldBand.m in Sources */,
+				04690D8E273E608300B3FF47 /* FBKProOldScaleCmd.m in Sources */,
+				04690DB5273E608300B3FF47 /* FBKApiNewScale.m in Sources */,
+				04690D8C273E608300B3FF47 /* FBKProtocolOldScale.m in Sources */,
+				04690DB9273E608300B3FF47 /* FBKApiCadence.m in Sources */,
+				04690D6F273E608300B3FF47 /* FBKBleController.m in Sources */,
+				04690DA7273E608300B3FF47 /* FBKApiScanDevices.m in Sources */,
+				04690D89273E608300B3FF47 /* FBKProNTrackerCmd.m in Sources */,
+				04690DA2273E608300B3FF47 /* FBKApiArmBand.m in Sources */,
+				04690D8F273E608300B3FF47 /* FBKProOldScaleAnalytical.m in Sources */,
+				04690D87273E608300B3FF47 /* FBKAnalyticalHubConfig.m in Sources */,
+				04690D84273E608300B3FF47 /* FBKProNTrackerBigData.m in Sources */,
+				04690D9B273E608300B3FF47 /* FBKProtocolBikeComputer.m in Sources */,
+				04690DBE273E608300B3FF47 /* FBKApiBsaeMethod.m in Sources */,
+				04690DC1273E608300B3FF47 /* FBKApiHubConfig.m in Sources */,
+				04690DB7273E608300B3FF47 /* FBKApiHeartRate.m in Sources */,
+				04690D67273E608300B3FF47 /* FBKDateFormat.m in Sources */,
+				04690DA4273E608300B3FF47 /* FBKApiSkipping.m in Sources */,
+				04690D6E273E608300B3FF47 /* FBKBleScan.m in Sources */,
+				04690CA8273E51FF00B3FF47 /* Poochplay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04690C90273E51F000B3FF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04690C97273E51F000B3FF47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04690C8A273E51EF00B3FF47 /* PoochplaySDK */;
+			targetProxy = 04690C96273E51F000B3FF47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04690C9D273E51F000B3FF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04690C9E273E51F000B3FF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04690CA0273E51F000B3FF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoochplaySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poochplay.poochplayapp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Debug;
+		};
+		04690CA1273E51F000B3FF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PoochplaySDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.poochplay.poochplayapp;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
+			};
+			name = Release;
+		};
+		04690CA3273E51F000B3FF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoochplaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poochplay.poochplayapp.PoochplaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04690CA4273E51F000B3FF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PoochplaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.poochplay.poochplayapp.PoochplaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04690CB1273E528400B3FF47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04690CB2273E528400B3FF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04690C85273E51EF00B3FF47 /* Build configuration list for PBXProject "PoochplaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04690C9D273E51F000B3FF47 /* Debug */,
+				04690C9E273E51F000B3FF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04690C9F273E51F000B3FF47 /* Build configuration list for PBXNativeTarget "PoochplaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04690CA0273E51F000B3FF47 /* Debug */,
+				04690CA1273E51F000B3FF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04690CA2273E51F000B3FF47 /* Build configuration list for PBXNativeTarget "PoochplaySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04690CA3273E51F000B3FF47 /* Debug */,
+				04690CA4273E51F000B3FF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04690CB0273E528400B3FF47 /* Build configuration list for PBXAggregateTarget "Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04690CB1273E528400B3FF47 /* Debug */,
+				04690CB2273E528400B3FF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04690C82273E51EF00B3FF47 /* Project object */;
+}

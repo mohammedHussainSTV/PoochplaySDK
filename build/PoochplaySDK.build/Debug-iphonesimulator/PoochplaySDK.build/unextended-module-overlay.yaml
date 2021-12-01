@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/mac/Library/Developer/Xcode/DerivedData/PoochplaySDK-emzrpetpeqiyyfciggveozdjiglm/Build/Products/Debug-iphonesimulator/PoochplaySDK.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/build/PoochplaySDK.build/Debug-iphonesimulator/PoochplaySDK.build/unextended-module.modulemap",
+    }]
+  }]
+}

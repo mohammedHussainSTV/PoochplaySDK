@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)"
+options: "b475299637ea1532468a143bab968251"
+build_time: [1636724745, 565537000]
+inputs:
+  "/Users/mac/Documents/Manish_kumar_workspace/PoochplaySDK/PoochplaySDK/PoochplaySDK/Poochplay.swift": [1636721790, 703166541]
