@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 
-  spec.name         = "PoochplayBle-SDK"
+  spec.name         = "PoochplaySDK"
   spec.version      = "1.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
