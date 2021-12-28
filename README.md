@@ -23,19 +23,19 @@ The API is clean and easy to read.
 
 To integrate PoochplaySDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
-use_frameworks!
+    ruby
+    source 'https://github.com/CocoaPods/Specs.git'
+    platform :ios, '11.0'
+    use_frameworks!
 
-pod 'PoochplaySDK'
-```
+    pod 'PoochplaySDK'
+
 
 Then, run the following command:
 
-bash
-$ pod install
-```
+    bash
+    $ pod install
+
 
 
 ## How to Use this module.
