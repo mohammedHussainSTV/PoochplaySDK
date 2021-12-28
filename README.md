@@ -22,8 +22,8 @@ The API is clean and easy to read.
 
 
 To integrate PoochplaySDK into your Xcode project using CocoaPods, specify it in your `Podfile`:
-```
-```ruby
+
+ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.0'
 use_frameworks!
