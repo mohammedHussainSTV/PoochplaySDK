@@ -33,7 +33,7 @@ pod 'PoochplaySDK'
 
 Then, run the following command:
 
-```bash
+bash
 $ pod install
 ```
 
